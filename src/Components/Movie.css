@@ -1,0 +1,26 @@
+.fh1{
+    border: 2px solid black;
+    align-items: center;
+    padding-left: 470px;
+    background-color: burlywood;
+    margin-top: 0;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+   
+    
+}
+.movie{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: burlywood;
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.movie img{
+    width: 200px;
+    height: 250px;
+}
