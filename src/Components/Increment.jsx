@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Student = () => {
+const Number = () => {
 
   const[value,setValue]= useState(0);
 
@@ -21,4 +21,4 @@ const handledec = () =>{
   )
 }
 
-export default Student;
+export default Number;

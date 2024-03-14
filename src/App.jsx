@@ -1,5 +1,6 @@
 import Movieparent from "./Components/Movieparent"
-import Student from "./Components/Student"
+import Number from "./Components/Increment.jsx"
+import Effectpr from "./Components/Effectpr.jsx"
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       {/* <Movieparent/> */}
-      <Student/>
+      {/* <Number/> */}
+      <Effectpr/>
     </>
   )
 }
