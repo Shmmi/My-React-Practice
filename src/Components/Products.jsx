@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import React from 'react'
 
-const Effectpr = () => {
+const Products = () => {
     const[state,setState]=useState(2);
     const[data,setData]= useState([]);
     useEffect(()=>{
@@ -35,4 +35,4 @@ const Effectpr = () => {
     </div>
   )
 }
-export default Effectpr
+export default Products
