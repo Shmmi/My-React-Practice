@@ -3,11 +3,10 @@ import Number from "./Components/Increment.jsx"
 import Products from "./Components/Products.jsx"
 import Header from "./Components/Header.jsx"
 import {BrowserRouter, Route, Routes } from "react-router-dom"
+import Contextparent from "./Components/Contextparent.jsx"
 
 
 function App() {
-  
-
   return (
     <BrowserRouter>
     <>
@@ -16,6 +15,7 @@ function App() {
       <Route path="/inc" element={<Number/>}/>
       <Route path="/movies" element={<Movieparent/>}/>
       <Route path="/products" element={<Products/>}/>
+      <Route path="/context" element={<Contextparent/>}/>
     </Routes>
     </>
     </BrowserRouter>
