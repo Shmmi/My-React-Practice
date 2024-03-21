@@ -21,3 +21,41 @@ body{
     background-color:rgb(214, 114, 245);
     font-size: large;
 }
+
+.mapcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 210px;
+    margin-bottom: 10px;
+    
+}
+.container img{
+    
+    height: 280px;
+    width: 200px;
+}
+.container p.description {
+    font-size: 0.875rem; /* Adjust font size as needed */
+    height: 100px; /* Set a fixed height for descriptions */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis to text that overflows */
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Limit the description to 5 lines */
+    -webkit-box-orient: vertical;
+  }
+  .bar{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
