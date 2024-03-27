@@ -27,7 +27,7 @@ const Products = () => {
       <div style={{display:"flex",flexWrap:"wrap",justifyContent:"space-between"}}>{
         loading? <div style={{
           display: "flex", justifyContent:"center", alignItems: "center",height:"100vh", width:"100vw"
-        }}><Vortex/></div>:
+        }}><ThreeCircles/></div>:
         data.map((element,index)=>{
         return(<div key={index} style={{display:"flex",flexWrap:"wrap",width:"300px",border:"2px solid black",marginBottom:"20px"}}>
             <h4>{element.title}</h4>
